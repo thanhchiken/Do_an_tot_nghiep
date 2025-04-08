@@ -49,10 +49,19 @@
 						<span>@Model.ProductDetails.Price.ToString("#,##0 VNĐ")</span>
 						<label>Quantity: 1</label>
 						<input type="text" value="3" />
-						<button type="button" class="btn btn-fefault cart">
-							<i class="fa fa-shopping-cart"></i>
-							Add to cart
-						</button>
+						@if (Model.ProductDetails.Quantity > 0)
+						{
+							<button type="button" class="btn btn-fefault cart">
+								<i class="fa fa-shopping-cart"></i>
+								thêm vào giỏ hàng</button>
+						}
+						else
+						{
+							<button type="button" class="btn btn-fefault">
+								<i class="fa fa-shopping-cart"></i>
+								hết hàng
+							</button>
+						}
 					</span>
 					<p><b>Availability:</b> In Stock</p>
 					<p><b>Condition:</b> New</p>

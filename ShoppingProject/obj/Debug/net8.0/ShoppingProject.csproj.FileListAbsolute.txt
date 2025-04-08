@@ -152,3 +152,4 @@ D:\ShoppingProject\ShoppingProject\bin\Debug\net8.0\ShoppingProject.pdb
 D:\ShoppingProject\ShoppingProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\ShoppingProject\ShoppingProject\obj\Debug\net8.0\ShoppingProject.genruntimeconfig.cache
 D:\ShoppingProject\ShoppingProject\obj\Debug\net8.0\ref\ShoppingProject.dll
+D:\ShoppingProject\ShoppingProject\obj\Debug\net8.0\ShoppingProject.sourcelink.json

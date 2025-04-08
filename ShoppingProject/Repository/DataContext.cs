@@ -22,6 +22,8 @@ namespace ShoppingProject.Repository
 
         public DbSet<ContactModel> Contact { get; set; }
 
+        public DbSet<ProductQuantityModel> ProductQuantities { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
