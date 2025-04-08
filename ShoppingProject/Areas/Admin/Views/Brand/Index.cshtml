@@ -1,0 +1,63 @@
+﻿@model IEnumerable<BrandModel>
+@{
+    ViewData["title"] = "Brand Listed";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<h2>list Brand</h2>
+<a asp-action="Create" asp-controller="Brand">Add Brand</a>
+    <table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Brand Name</th>
+            <th scope="col">Brand Description</th>
+            <th scope="col">Brand Slug</th>
+            <th scope="col">Brand Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@Html.Raw(@item.Description)</td>
+                <td> @item.Slug </td>
+                <td>
+                    @if (item.Status == 1)
+                    {
+                        <span class="text text-success">Hiển thị</span>
+                    }
+                    else
+                    {
+                        <span class="text text-danger">Ẩn</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-controller="Brand" asp-route-Id="@item.Id">Edit</a>
+                    <form asp-action="Delete" asp-controller="Brand" method="post" style="display:inline;">
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa thương hiệu này?');">Delete</button>
+                        </form>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</body>
+</html>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}
