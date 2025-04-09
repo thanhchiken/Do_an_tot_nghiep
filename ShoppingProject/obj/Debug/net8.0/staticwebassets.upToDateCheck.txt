@@ -89,7 +89,6 @@ wwwroot\media\products\516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF35
 wwwroot\media\products\6d583283-483b-47ef-a3aa-10b769d6337d_c272f233-91ed-4a94-a684-cb301bc9b94e_laptop-asus-gaming.jpg
 wwwroot\media\products\73b7c6b8-14a6-40b7-88fd-2b68ceb11e38_z5728249778610_a4e98aa92ae98c5dfbaa2c1e590adc19.jpg
 wwwroot\media\products\772cff87-ec27-4ab2-90df-1e5d0665c555_Screenshot 2025-02-28 114843.jpg
-wwwroot\media\products\86e54128-8dce-4661-94a8-7c03f7eacf74_LOGO.png
 wwwroot\media\products\a7075821-a285-4f2e-883e-d2455c8e8591_picture-1697014826.png
 wwwroot\media\products\a954a2b9-c6d4-4d8f-af85-b88fb1492ee6_37428_asus_rog_st.png
 wwwroot\media\products\b7802bf6-21e9-4307-a19e-447854ca69d6_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg

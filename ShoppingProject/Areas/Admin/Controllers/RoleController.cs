@@ -38,10 +38,10 @@ namespace ShoppingProject.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create(IdentityRole model)
         {
-            //avoid duplicate role
-            if (!_roleManager.RoleExistsAsync(model.Name).GetAwaiter().GetResult())
+            // Avoid duplicate role
+            if (!await _roleManager.RoleExistsAsync(model.Name))
             {
-                _roleManager.CreateAsync(new IdentityRole(model.Name)).GetAwaiter().GetResult();
+                await _roleManager.CreateAsync(new IdentityRole(model.Name));
             }
             return Redirect("Index");
         }
