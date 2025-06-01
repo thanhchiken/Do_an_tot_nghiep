@@ -2,6 +2,7 @@ wwwroot\backend\js\site.js
 wwwroot\css\animate.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\font-awesome.min.css
+wwwroot\css\footer.css
 wwwroot\css\main.css
 wwwroot\css\prettyPhoto.css
 wwwroot\css\price-range.css
@@ -10,6 +11,7 @@ wwwroot\favicon.ico
 wwwroot\images\1.png
 wwwroot\images\2.png
 wwwroot\images\gallery1.jpg
+wwwroot\images\logo.png
 wwwroot\js\bootstrap.min.js
 wwwroot\js\contact.js
 wwwroot\js\gmaps.js
@@ -89,12 +91,12 @@ wwwroot\media\products\516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF35
 wwwroot\media\products\6d583283-483b-47ef-a3aa-10b769d6337d_c272f233-91ed-4a94-a684-cb301bc9b94e_laptop-asus-gaming.jpg
 wwwroot\media\products\73b7c6b8-14a6-40b7-88fd-2b68ceb11e38_z5728249778610_a4e98aa92ae98c5dfbaa2c1e590adc19.jpg
 wwwroot\media\products\772cff87-ec27-4ab2-90df-1e5d0665c555_Screenshot 2025-02-28 114843.jpg
+wwwroot\media\products\8a66998e-8321-4088-8d29-6598eef63410_Screenshot 2025-04-02 141715.png
 wwwroot\media\products\a7075821-a285-4f2e-883e-d2455c8e8591_picture-1697014826.png
 wwwroot\media\products\a954a2b9-c6d4-4d8f-af85-b88fb1492ee6_37428_asus_rog_st.png
 wwwroot\media\products\b7802bf6-21e9-4307-a19e-447854ca69d6_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg
 wwwroot\media\products\be8476d4-3f8a-4664-91e0-c0a04dbf43df_picture-1697014826.png
 wwwroot\media\products\c272f233-91ed-4a94-a684-cb301bc9b94e_laptop-asus-gaming.jpg
-wwwroot\media\products\cc42034f-c41d-44fa-8c7d-89aedef32fc5_sg-11134201-22120-csy366786ukv4b.jpg
 wwwroot\media\sliders\12cf9a46-f799-4c15-8754-53bcf09e6e34_2642_ldp_bmwk_1920x620.png
 wwwroot\media\sliders\b99d3b98-7a46-41f7-924c-7a9fee047fab_Black-Myth-Wukong_2024_06-07-24_005.jpg
 wwwroot\media\sliders\c76c3ee5-1cce-4fe1-8576-923ed5ae0233_Black-Myth-Wukong-banner.jpg

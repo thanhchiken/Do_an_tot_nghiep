@@ -1,0 +1,109 @@
+﻿@charset "UTF-8";
+
+.footer {
+    background-color: #414046;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+/* Phần bên trái - Thông tin liên hệ */
+.footer-left {
+
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+    .footer-left h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .footer-left a {
+        color: white;
+        text-decoration: none;
+    }
+
+/* Phần giữa - Liên kết nhanh */
+.footer-center {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+    .footer-center h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .footer-center p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footer-center a {
+        color: white;
+        text-decoration: none;
+    }
+
+        .footer-center a:hover {
+            text-decoration: underline;
+        }
+
+/* Phần bên phải - Bản đồ */
+.footer-right {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+    .footer-right h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .footer-right p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footer-right iframe {
+        border-radius: 5px;
+    }
+
+/* Dòng bản quyền */
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+}
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        margin-bottom: 30px;
+    }
+}

@@ -7,11 +7,10 @@
 <table class="table" id="myTable">
     <thead>
         <tr>
-            <th scope="col">#</th>
+            <th scope="col">st</th>
             <th scope="col">Order Code</th>
             <th scope="col">UserName</th>
-            <th scope="col"> </th>
-            <th scope="col">Order Date</th>
+            <th scope="col">Shipping Cost</th>
             <th scope="col">Order Status</th>
             <th scope="col">Create Date</th>
             <th>Actions</th>
@@ -27,8 +26,7 @@
                 <th>#</th>
                 <th scope="row">@item.OrderCode</th>
                 <td>@item.UserName</td>
-                <td @item.CreatedDate></td>
-                <td>@item.CreatedDate.ToString("dd-MM-yyyy")</td>
+                <td scope="row">@item.ShippingCost.ToString("#,##0 VNĐ")</td>
                 <td>
                     @if (item.Status == 1)
                     {

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
+      "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\images\\gallery1.jpg",
       "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\js\\bootstrap.min.js",
@@ -369,6 +377,10 @@
       "PackagePath": "staticwebassets\\media\\products\\772cff87-ec27-4ab2-90df-1e5d0665c555_Screenshot 2025-02-28 114843.jpg"
     },
     {
+      "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\media\\products\\8a66998e-8321-4088-8d29-6598eef63410_Screenshot 2025-04-02 141715.png",
+      "PackagePath": "staticwebassets\\media\\products\\8a66998e-8321-4088-8d29-6598eef63410_Screenshot 2025-04-02 141715.png"
+    },
+    {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\media\\products\\a7075821-a285-4f2e-883e-d2455c8e8591_picture-1697014826.png",
       "PackagePath": "staticwebassets\\media\\products\\a7075821-a285-4f2e-883e-d2455c8e8591_picture-1697014826.png"
     },
@@ -387,10 +399,6 @@
     {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\media\\products\\c272f233-91ed-4a94-a684-cb301bc9b94e_laptop-asus-gaming.jpg",
       "PackagePath": "staticwebassets\\media\\products\\c272f233-91ed-4a94-a684-cb301bc9b94e_laptop-asus-gaming.jpg"
-    },
-    {
-      "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\media\\products\\cc42034f-c41d-44fa-8c7d-89aedef32fc5_sg-11134201-22120-csy366786ukv4b.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\cc42034f-c41d-44fa-8c7d-89aedef32fc5_sg-11134201-22120-csy366786ukv4b.jpg"
     },
     {
       "Id": "D:\\ShoppingProject\\ShoppingProject\\wwwroot\\media\\sliders\\12cf9a46-f799-4c15-8754-53bcf09e6e34_2642_ldp_bmwk_1920x620.png",

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using ShoppingProject.Models;
 using ShoppingProject.Repository;
 using System.Security.Claims;
@@ -24,6 +25,16 @@ namespace ShoppingProject.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
+            // Nhận shipping giá từ cookie
+            var shippingPriceCookie = Request.Cookies["ShippingPrice"];
+            decimal shippingPrice = 0;
+
+            if (shippingPriceCookie != null)
+            {
+                var shippingPriceJson = shippingPriceCookie;
+                shippingPrice = JsonConvert.DeserializeObject<decimal>(shippingPriceJson);
+            }
+
             var ordercode = Guid.NewGuid().ToString();
             var orderItem = new OrderModel
             {
@@ -33,6 +44,7 @@ namespace ShoppingProject.Controllers
                 CreatedDate = DateTime.Now
             };
 
+            orderItem.ShippingCost = shippingPrice;
             _dataContext.Add(orderItem);
             await _dataContext.SaveChangesAsync();
 

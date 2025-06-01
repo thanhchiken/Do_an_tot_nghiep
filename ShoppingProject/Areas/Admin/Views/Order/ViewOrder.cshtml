@@ -17,11 +17,13 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Order Code</th>
-                    <th scope="col">UserName</th>
-                    <th scope="col">Order Date</th>
-                    <th scope="col">Order Status</th>
+                <th>Id</th>
+                <th>Order Code</th>
+                <th>UserName</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
 
 
                 </tr>
@@ -44,12 +46,15 @@
                     </tr>
                 }
                 <tr>
-                    <th colspan="5">Total:</th>
-                    <td>@total.ToString("C")</td>
+                    <td>Total:</td>
+                    <td>shipping cost : @ViewBag.ShippingCost.ToString("#,##0 VNĐ")</td>
+                    <td>Tổng: @total.ToString("#,##0 VNĐ")</td>
+                    <td colspan="3"></td>
                     <td>
                         <select class="form-control select-update-order">
+                            <option value="0">trạng thái</option>
                             <option value="1"> đơn hàng mới</option>
-                            <option value="0"> đã xử lý</option>
+                            <option value="2"> đã xử lý</option>
                         </select>
                     </td>
                 </tr>

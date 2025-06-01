@@ -79,21 +79,21 @@
 
                                 <button type="button" class="btn btn-primary btn-add-shipping">Tính phí vận chuyển</button>
                             </td>
-                            <td>
-                                <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear"> Clear </a>
-                            </td>
                             @if (User.Identity?.IsAuthenticated ?? false)
                             {
                                 <td colspan="1">
                                     @if (@Model.ShippingCost <= 0){
                                         <a disabled="disabled" class="btn btn-danger btn-sm" asp-controller="Checkout" asp-action="Checkout">đặt hàng</a><br/>
-                                        <span class="text text-danger">yc tính phí v/c</span>
+                                        <p class="text text-danger">yc tính phí v/c</p>
                                     }else{
                                         <a class="btn btn-danger btn-sm" asp-controller="Checkout" asp-action="Checkout">đặt hàng</a>
                                     }
                                     
                                 </td>
                             }
+                            <td>
+                                <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear"> Clear </a>
+                            </td>
                         </tr>
                     }
                     else

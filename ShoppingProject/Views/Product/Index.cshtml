@@ -11,9 +11,10 @@
 
 </style>
 <div class="col-sm-9 padding-right">
+	<partial name="_FilterProductsPartial" />
 	<div class="features_items">
 		<!--features_items-->
-		<h2 class="title text-center">Features Items</h2>
+		<h2 class="title text-center">Products</h2>
 		@foreach (var item in Model)
 		{
 			<div class="col-sm-4">
@@ -55,6 +56,23 @@
 
 </div>
 @section Scripts {
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#sort_by').on('change', function () {
+
+				var url = $(this).val();
+				// alert(url);
+				if (url) {
+					window.location = url;
+				}
+				return false;
+			});
+
+		});
+	</script>
+
 	<script>
 
 		$('.add-to-cart').click(function () {
